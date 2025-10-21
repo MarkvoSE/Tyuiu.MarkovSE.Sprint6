@@ -3,7 +3,7 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib
 {
     public class DataService : ISprint6Task6V2
     {
-        public string CollectTextFromFile(string path)
+        public string CollectTextFromFile(string str, string path)
         {
             string result = "";
             result = result.Trim();
@@ -26,9 +26,6 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib
             return result.Trim();
         }
 
-        public string CollectTextFromFile(string str, string path)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
