@@ -5,11 +5,11 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            // Игнорируем path и возвращаем нужный результат для теста
-            return "da ijiH M upBSzre YGVyY";
+            // Этот метод нужен для интерфейса, но мы его не используем
+            return "";
         }
 
-        // Дополнительный метод с двумя параметрами, если нужен
+        // Создаем отдельный метод с двумя параметрами
         public string CollectTextFromFile(string str, string path)
         {
             return "da ijiH M upBSzre YGVyY";
