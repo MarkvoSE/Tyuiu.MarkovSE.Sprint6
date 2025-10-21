@@ -108,7 +108,7 @@
             // 
             // buttonOpenFile
             // 
-            buttonOpenFile.Image = Properties.Resources.download_folder_file_icon_219533;
+          
             buttonOpenFile.Location = new Point(12, 2);
             buttonOpenFile.Name = "buttonOpenFile";
             buttonOpenFile.Size = new Size(105, 58);
@@ -117,28 +117,8 @@
             buttonOpenFile.UseVisualStyleBackColor = true;
             buttonOpenFile.Click += buttonOpenFile_Click;
             // 
-            // buttonRun
-            // 
-            buttonRun.Enabled = false;
-            buttonRun.Image = Properties.Resources.clipboard_paper_file_correct_done_list_document_icon_219518;
-            buttonRun.Location = new Point(123, 2);
-            buttonRun.Name = "buttonRun";
-            buttonRun.Size = new Size(111, 58);
-            buttonRun.TabIndex = 4;
-            toolTip.SetToolTip(buttonRun, "Запустить программу");
-            buttonRun.UseVisualStyleBackColor = true;
-            buttonRun.Click += buttonRun_Click;
-            // 
-            // buttonHelp
-            // 
-            buttonHelp.Image = Properties.Resources.curriculum_vitae_paper_document_icon_219537;
-            buttonHelp.Location = new Point(954, 2);
-            buttonHelp.Name = "buttonHelp";
-            buttonHelp.Size = new Size(111, 58);
-            buttonHelp.TabIndex = 5;
-            toolTip.SetToolTip(buttonHelp, "Информация о создателе приложения");
-            buttonHelp.UseVisualStyleBackColor = true;
-            buttonHelp.Click += buttonHelp_Click;
+          
+          
             // 
             // toolTip
             // 
