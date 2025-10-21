@@ -8,8 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib\Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib.csproj" />
-  </ItemGroup>
-
 </Project>
