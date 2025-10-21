@@ -7,11 +7,9 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Test
         [TestMethod]
         public void ValidCollectTextFromFile()
         {
-            DataService ds = new DataService();
-            string path = @"C:\DataSprint6\InPutFileTask6V2.txt";
-            string wait = "da ijiH M upBSzre YGVyY";
-            string res = ds.CollectTextFromFile(path);
-            Assert.AreEqual(wait, res);
+            DataService dataService = new DataService();
+            string res = "da ijiH M upBSzre YGVyY";
+            Assert.AreEqual(res, dataService.CollectTextFromFile(@"C:\Sprint6Task6\InPutDataFileTask6V2.txt"));
         }
     }
 }
