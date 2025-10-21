@@ -8,8 +8,11 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Test
         public void ValidCollectTextFromFile()
         {
             DataService dataService = new DataService();
-            string res = "da ijiH M upBSzre YGVyY";
-            Assert.AreEqual(res, dataService.CollectTextFromFile(@"C:\Sprint6Task6\InPutDataFileTask6V2.txt"));
+            string path = @"C:\Sprint6Task6\InPutDataFileTask6V2.txt";
+            string str = "test";
+            string res = dataService.CollectTextFromFile(str, path);
+            string wait = "da ijiH M upBSzre YGVyY";
+            Assert.AreEqual(wait, res);
         }
     }
 }

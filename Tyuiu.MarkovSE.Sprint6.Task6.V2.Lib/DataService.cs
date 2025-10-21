@@ -5,14 +5,30 @@ namespace Tyuiu.MarkovSE.Sprint6.Task6.V2.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            // Этот метод нужен для интерфейса, но мы его не используем
+            // Реализация для интерфейса (может быть пустой)
             return "";
         }
 
-        // Создаем отдельный метод с двумя параметрами
+        // Дополнительный метод с двумя параметрами
         public string CollectTextFromFile(string str, string path)
         {
-            return "da ijiH M upBSzre YGVyY";
+            string result = "";
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] words = line.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+
+                    if (words.Length >= 2)
+                    {
+                        result += words[1] + " ";
+                    }
+                }
+            }
+
+            return result.Trim();
         }
     }
 }
